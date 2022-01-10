@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif !important;
+}
+li {
+  padding: 5px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: white;
+  color: black;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 15px;
+  color: white;
+}
+.w3-code {
+  width: auto;
+  background-color: none!important;
+  padding: 8px 12px;
+  border-left:none!important;
+  word-wrap: break-word;
+}
+.carousel-img{
+  height: 610px;
+}
+.icon {
+  z-index: 500;
+  position: fixed;
+  top: 40%;
+  right: 0;
+}
+.icons {
+  color: white;
+  transition: width 1s, padding-left 1s;
+  cursor: pointer;
+}
+.icon-container {
+  background: #00adf1 !important;
+  margin: 10px 0;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  width: 85px;
+  height: auto;
+  padding: 10px 10px 10px 20px;
+ 
+}
+.icons:hover {
+  color:black
+}
+
+.col-btn:hover{
+  background-color: #00adf1 !important;
+  color:white;
+  border:1px solid transparent!important;
+}
+.clinic{
+  position: relative;
+}
+
+@media screen and (max-width:800px) {
+  .fw-bolder{
+  font-size: 15px;
+  }
+  
+  .team{
+    text-align: center;
+  }
+  .carousel-img{
+    height: 100%;
+  }
+}
+hr.hori{
+  width: 30%;
+  margin: auto;
+  height: 5px;
+  background-color: #00adf1;
+  border-radius: 10px;
+  font-weight: bolder;
+}
